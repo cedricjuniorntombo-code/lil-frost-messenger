@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/lil-frost-messenger/',
   plugins: [react()],
   resolve: {
     alias: {
